@@ -1,0 +1,199 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7d51930cf8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider/slide.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="first">
+        <div class="header">
+            <label for="chec">
+                <i id="icone-b" class="fas fa-bars" onclick="chamarMenu()"></i>
+            </label>
+            <input type="checkbox" name="" id="chec">
+            <img src="./logosemfundo.webp" alt="logo" class="logo">
+
+            <div id="menu">
+                <ul>
+                    <li><a><i class="fas fa-times" onclick="chamarMenu()"></i></a></li>
+                    <li><a onclick="chamarMenu()" class="click" href="#home">HOME</a></li>
+                    <li><a onclick="chamarMenu()" class="click" href="#portifolio">PORTIFOLIO</a></li>
+                    <li><a onclick="chamarMenu()" class="click" href="#sobre">SOBRE</a></li>
+                    <li><a onclick="chamarMenu()" class="click" href="#sobreosprojetos">SOBRE OS PROJETOS</a></li>
+                    <li><a onclick="chamarMenu()" class="click" href="#contato">CONTATO</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-github-square"></i>
+            <i class="fab fas fa-envelope"></i>
+        </div>
+
+        <div class="apresentacao">
+            <h1><strong>GABRIEL ELIAS</strong> </h1>
+            <h2>Web Developer</h2>
+            <p>
+                Sou Estudante de Análise de Sistemas na Universidade Paulista, porem os conhecimentos em Desenvolvimento Web que possuo decorrem dos meus estudos autodidata. Ao longo do tempo desenvolvi alguns projetos pessoais e assim, super aprimorei meus conhecimentos
+                em JS, Angular, HTML, CSS, MySQL e C/C++. Sou analítico, tenho facilidade e desejo de aprender novas coisas e esses pontos são os meus diferencias.
+                <br> <br> <a href="#sobre">Saiba mais...</a>
+            </p>
+            <p>
+                I am a Systems Analysis Student at Universidade Paulista, but the knowledge in Web Development that I have comes from my self-taught studies. Over time I developed some personal projects and so, I super improved my knowledge
+                in JS, Angular, HTML, CSS, MySQL and C / C ++. I am analytical, I have ease and desire to learn new things and these points are my differences.
+                <br> <br> <a href="#sobre"> Learn more ... </a>
+            </p>
+            
+        </div>
+    </section>
+    <h2 class="textos topo" >Habilidades</h2>
+    <div id="skils">
+        <ul class="left">
+            <li><img src="./carregar.png" alt="" class="carregar" data-anime="top"></li>
+            <h5 data-anime="left">HTML5</h5>
+        </ul>
+        <ul class="right">
+            <h5 data-anime="right">CSS3</h5>
+            <li><img src="./carregar.png" alt="" class="carregar" data-anime="top"></li>
+        </ul>
+        <ul class="left">
+            <li><img src="./carregar.png" alt="" class="carregar" data-anime="top"></li>
+            <h5 data-anime="left">JAVA-SCRIPT</h5>
+        </ul>
+        <ul class="right">
+            <h5 data-anime="right">JQUERY</h5>
+            <li><img src="./carregar.png" alt="" class="carregar" data-anime="top"></li>
+        </ul>
+        <ul class="left">
+            <li><img src="./carregar.png" alt="" class="carregar" data-anime="top"></li>
+            <h5 data-anime="left">ANGULAR9</h5>
+        </ul>
+        <ul class="right">
+            <li><img src="./carregar.png" alt="" class="carregar" data-anime="top"></li>
+            <h5 data-anime="right">RESPONSIVIDADE</h5>
+        </ul>
+        <ul class="left">
+            <li><img src="./carregar.png" alt="" class="carregar" data-anime="top"></li>
+            <h5 data-anime="left">MySQL</h5>
+        </ul>
+        <ul class="right">
+            <li><img src="./carregar.png" alt="" class="carregar" data-anime="top"></li>
+            <h5 data-anime="right">C/C++</h5>
+        </ul>
+    </div>
+    <div id="portifolio">
+        <h2 class="projetos">projetos</h2>
+        <div id="slider">
+            <img class="selected" src="./slider/crud.webp" alt="lixo">
+            <img src="./slider/3e16483d-de3d-408e-8160-b5b1b3eee930.jpg" alt="">
+            <img src="./slider/projeto-sub.webp" alt="">
+
+            <p class="p1 selecionado paragrafo">Crud simples feito em Angular9, HTML, CSS.
+            </p>
+            <p class="p1">Projeto: Classificados - BR </p>
+            <p class="p1">Classificados - BR, link do codigo fonte no Github</p>
+        </div>
+    </div>
+    <section class="container fiodor">
+        <h4 class="textos" data-anime="top">Saia da Gaiola sem medo</h4>
+        <p class="paragrafo" data-anime="top">O vazio é o espaço da liberdade, a ausência
+            de certezas. Mas é isso o que tememos: o não ter certezas.
+            Por isso trocamos o voo por gaiolas. As gaiolas são o 
+            lugar onde onde as certezas moram.</p>
+            <p class="paragrafo" data-anime="top" >
+            Emptiness is the space of freedom, the absence of certainties. But this is what we fear: not being sure. That's why we traded the flight for cages. Cages are the place where certainties live
+            </p>
+    </section>
+    <!--Sobre -->
+    <div id="sobre">
+        <div class="sobre width" data-anime="top">
+            <h2 class="h2-sobre textos" data-anime="right">Mais Sobre Mim</h2>
+            <p class="paragrafo-sobre paragrafo" data-anime-text="left">
+                Focado em desenvolimento web, estudo e crio projetos há 1 ano utilizando as tecnologias predominantes do mercado para assim, prover uma experiência agradavel ao usuário final
+                <br> Quer fazer o seu site? - <a href="#contato">Ir para Contato</a> 
+            </p>
+            <i class="fab fa-github-square"></i>
+            <div>
+                <h3 class="textos">Minhas Certificações:</h3>
+                <img class="certificado" src="./Certificado.png" alt="mySql">
+                <img class="certificado" src="./UC-1191dd52-4bf3-47f7-bac3-6371f392ba12.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Fim da div Sobre -->
+    <div id="contato">
+        <div>
+            <h2 class="textos">Contato</h2>
+            <p class="textos"> Duvidas, opiniões ou sugestões fale comigo. <br><br> gabriel_elias9@hotmail.com <br> Tel: 11-94051-1067
+            </p>
+
+        </div>
+        <div>
+            <input type="text" name="name" id="name" placeholder="Nome...">
+            <input type="number" name="" id="telefeone" placeholder="Telefone...">
+            <input type="text" name="email" id="email" placeholder="E-mail...">
+            <textarea name="assunto" id="" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>
+        </div>
+    </div>
+    <!-- Funcoes para o menu mobile e icons-->
+    <footer>
+        <p>Gabriel Elias &copy; 2020<br> Alguns Direitos reservados </p>
+        <i class="fab fa-linkedin-in i2"></i>
+        <i class="fab fa-github-square i2"></i>
+        <i class="fab fas fa-envelope i2"></i>
+    </footer>
+    <script>
+        function chamarMenu() {
+            const myChecbox = document.getElementById("chec")
+            const menu = document.getElementById("menu")
+            const fechar = document.getElementsByClassName("click")
+            const icon = document.getElementById("icone-b")
+
+
+            if (myChecbox.checked || fechar.clicked) {
+                menu.style.left = '-100%'
+                icon.style.animation = 'changeBackgroundColor 2s'
+            } else {
+                menu.style.left = '0'
+            }
+        }
+
+        let time = 5000,
+            index = 0,
+            imagens = document.querySelectorAll("#slider img"),
+            max = imagens.length
+        let paragrafos = document.getElementsByClassName("p1")
+
+
+        function nextImage() {
+            imagens[index].classList.remove("selected")
+            paragrafos[index].classList.remove("selecionado")
+
+            index++
+
+            if (index >= max)
+                index = 0
+            imagens[index].classList.add("selected")
+            paragrafos[index].classList.add("selecionado")
+
+        }
+
+        function start() {
+            setInterval(() => {
+                nextImage()
+            }, time)
+        }
+
+        window.addEventListener("load", start)
+    </script>
+    <script src="./animeScroll.js"></script>
+</body>
+
+</html>
